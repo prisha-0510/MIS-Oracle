@@ -4,7 +4,7 @@
 
 In this project, we aim to construct an **oracle** that predicts the probability that each node in a graph belongs to the Maximum Independent Set (MIS). These probabilities provide valuable insights into the structure of the graph and are particularly useful in applications where exact MIS solutions are computationally infeasible.
 
-Our approach leverages **Graph Convolutional Networks (GCNs)** to encode graph structure and node features. By clustering nodes with similar feature representations and running a greedy MIS approximation within each cluster, we derive node-level probabilities as a proxy for the oracle's accuracy. This method addresses an open problem outlined in [this paper](https://arxiv.org/abs/placeholder). 
+Our approach leverages **Graph Convolutional Networks (GCNs)** to encode graph structure and node features. By clustering nodes with similar feature representations and running a greedy MIS approximation within each cluster, we derive node-level probabilities as a proxy for the oracle's accuracy. This method addresses an open problem outlined in [this paper](https://arxiv.org/pdf/2407.11364). 
 
 ---
 
